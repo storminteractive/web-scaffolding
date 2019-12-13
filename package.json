@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/storminteractive/web-scaffolding/issues"
   },
-  "homepage": "https://github.com/storminteractive/web-scaffolding#readme"
+  "homepage": "https://github.com/storminteractive/web-scaffolding#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-winston": "^4.0.1",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1"
+  }
 }
