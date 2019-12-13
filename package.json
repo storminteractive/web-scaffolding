@@ -1,0 +1,19 @@
+{
+  "name": "web-scaffolding",
+  "version": "1.0.0",
+  "description": "Boilerplate for sample web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storminteractive/web-scaffolding.git"
+  },
+  "author": "Storm Interactive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/storminteractive/web-scaffolding/issues"
+  },
+  "homepage": "https://github.com/storminteractive/web-scaffolding#readme"
+}
