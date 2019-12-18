@@ -1,6 +1,6 @@
 // https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/
 const mongoose = require('mongoose');
-var l = require('../libs/winston')('userModel');
+var l = require('stormwinston')('userModel');
 var validator = require('validator');
 
 const mySchema = new mongoose.Schema({

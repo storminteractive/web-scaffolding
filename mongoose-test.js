@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const assert = require('assert');
-var l = require('./libs/winston')('mongoose-test');
+var l = require('stormwinston')('mongoose-test');
 
 mongoose.connect('mongodb://localhost/web-scaffolding',{ useNewUrlParser: true, useUnifiedTopology: true, connectTimeoutMS: 5000 })
 .then(() => l.info('Connected to MongoDB!'))

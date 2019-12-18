@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
-const l = require('./libs/winston')('web-scaffolding-main');
-const swe = require('./libs/winston')('stormWinstonExpress');
+const l = require('stormwinston')('web-scaffolding-main');
+const swe = require('stormwinston')('stormWinstonExpress');
 const ejs = require('ejs');
 
 const app = express();

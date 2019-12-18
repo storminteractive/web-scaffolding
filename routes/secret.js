@@ -1,5 +1,5 @@
 var express = require("express");
-var l = require("../libs/winston")("secret-route");
+var l = require("stormwinston")("secret-route");
 var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 var passport = require("passport");

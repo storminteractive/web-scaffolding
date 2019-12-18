@@ -1,7 +1,7 @@
 var express = require('express');
 var ev = require('express-validator');
 var v = require('validator')
-var l = require('../libs/winston')('books-route');
+var l = require('stormwinston')('books-route');
 var bodyParser = require('body-parser');
 var router = express.Router();
 

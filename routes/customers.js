@@ -1,6 +1,6 @@
 var express = require('express');
 var bodyparser = require('body-parser');
-var l = require('../libs/winston')('customers-route');
+var l = require('stormwinston')('customers-route');
 const mongoose = require('mongoose');
 
 var router = express.Router();
