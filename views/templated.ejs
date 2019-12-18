@@ -1,0 +1,25 @@
+<!--
+// if, include, foreach, for 
+// 
+-->
+<html>
+<%- include ('head'); %>
+
+	<body>
+    <div id="name1"><%=name1%></div>
+    <div id="name2" style="color: <%=color%>"><%=name2%></div>
+
+    <%for(let i=0; i<otherguys.length; i++) {%>
+        <div class="otherguys"><%= otherguys[i].name %></div>
+    <%}%>
+
+    <% otherguys.forEach(function(guy){ %>
+        <div class="otherguys"><%= guy.name %></div>
+    <% }); %>
+
+    <% otherguys.forEach(function(guy){ %>
+        <%- include ('guytemplate',{guy: guy}); %>
+    <% }); %>
+
+    </body>
+</html>
