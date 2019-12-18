@@ -11,7 +11,7 @@ const logWinston = ((req,res,next)=>{
     const startTime = new Date().getTime();
     res.on('finish', () => {
         const finishTime = new Date().getTime();
-        swe.debug(`${req.method} ${req.url} ${res.statusCode} ${finishTime - startTime}ms`);
+        swe.debug(`${req.ip} ${req.method} ${req.url} ${res.statusCode} ${finishTime - startTime}ms`);
       });
     next();
 })
