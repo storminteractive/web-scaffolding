@@ -1,3 +1,6 @@
+// TODO: try joigoose
+// TODO: wrap in default error messages so no need to rewrite
+
 var express = require('express');
 var bodyparser = require('body-parser');
 var l = require('stormwinston')('customers-route');

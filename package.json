@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/storminteractive/web-scaffolding#readme",
   "dependencies": {
+    "@hapi/joi": "^16.1.8",
     "body-parser": "^1.19.0",
     "connect-mongo": "^3.2.0",
     "cookie-parser": "^1.4.4",
@@ -25,12 +26,15 @@
     "express-session": "^1.17.0",
     "express-validator": "^6.3.0",
     "express-winston": "^4.0.1",
+    "joi": "^14.3.1",
+    "joigoose": "^6.2.0",
     "mongodb": "^3.4.0",
     "mongoose": "^5.8.1",
     "morgan": "^1.9.1",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "stormwinston": "^1.2.0",
+    "stormwinstonexpress": "^1.0.0",
     "validator": "^12.1.0",
     "winston": "^3.2.1"
   }

@@ -4,8 +4,11 @@ const l = require('stormwinston')('web-scaffolding-main');
 const swe = require('stormwinston')('stormWinstonExpress');
 const ejs = require('ejs');
 
+const config = require('./config.js');
+
 const app = express();
 const port = process.env.PORT || 3000;
+
 
 const logWinston = ((req,res,next)=>{
     const startTime = new Date().getTime();
